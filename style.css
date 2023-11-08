@@ -1,0 +1,17 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+    right: 90px;
+
+}
+
+.form-control, .list-group-item  {
+    align-items: center;
+}
