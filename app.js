@@ -60,16 +60,14 @@ addButton.addEventListener('click', function(event) {
         addToDo(todo);
         LIST++
         input.value = ""
-        console.log(LIST)
         
        
     }
 });
 
 function removeTask(todo) {
-    const taskIndex = Array.from(todo.parentNode.children).indexOf(todo);
     todo.remove();
     LIST--
-    console.log(LIST);
+    
 }
 
